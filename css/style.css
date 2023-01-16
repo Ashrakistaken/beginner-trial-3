@@ -30,14 +30,17 @@ ul {
 
 .group-one {
     height: 55vh;
-    padding-left: 5rem;
-    padding-top: 2rem;
-    position: relative;
     background-color: #1F2937;
+    display: flex;
+    justify-content: space-around;
+}
+
+.first-text {
+    width: 30%;
 }
 
 h2 {
-    width: 25%;
+    width: 70%;
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
@@ -45,7 +48,7 @@ h2 {
 }
 
 p {
-    width: 25%;
+    width: 70%;
     font-size: 20px;
     color: lightgray;
     margin-bottom: 0.5rem;
@@ -54,17 +57,16 @@ p {
 
 
 .image-holder {
+    margin-top: 2rem;
     width: 500px;
     height: 250px;
     background-color: #434242;
-    position: absolute;
-    top: 3rem;
-    left: 40rem;
+    color: rgba(255, 255, 255, 0.9);
     display: flex;
     justify-content: center;
     align-items: center;
-    color: rgba(255, 255, 255, 0.9);
 }
+
 
 .Sign-up {
     background-color: #3882f6;
