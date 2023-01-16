@@ -3,6 +3,8 @@ body {
     padding: 0;
 }
 
+/*Logo and Nav*/
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -23,6 +25,8 @@ ul {
     gap: 2rem;
     color: #F9FAF8;
 }
+
+/*First Section*/
 
 .group-one {
     height: 55vh;
@@ -70,6 +74,10 @@ p {
     color: #F9FAF8;
     font-weight: 600;
 }
+
+
+
+/* Second Section*/
 
 .group-two {
     padding-right: 10rem;
